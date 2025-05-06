@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+    --font-inst: "Instrument Serif", serif;
+    --font-lex: "Lexend", sans-serif;
+
+        /* Phantom Color Palette */
+    --color-phantom-50: #f0f0f0;
+    --color-phantom-100: #e2e2e2;
+    --color-phantom-200: #c5c5c5;
+    --color-phantom-300: #a9a9a9;
+    --color-phantom-400: #8e8e8e;
+    --color-phantom-500: #747474;
+    --color-phantom-600: #5b5b5b;
+    --color-phantom-700: #434343;
+    --color-phantom-800: #2c2c2c;
+    --color-phantom-900: #171717;
+    --color-phantom-950: #0a0a0a;
+
+}
+
+html{
+    background-color:#0A0A0A;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1a1a1a;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 4px;
+    border: 2px solid #1a1a1a; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #888;
+  }
+  
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #555 #1a1a1a;
+  }

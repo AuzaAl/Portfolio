@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "auzaportofolio",
+  "builds": [{ "src": "index.html", "use": "@vercel/static" }],
+  "routes": [{ "handle": "filesystem" }],
+
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
